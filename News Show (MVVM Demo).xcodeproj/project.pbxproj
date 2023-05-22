@@ -15,6 +15,8 @@
 		A1D539452A1AC90F005F2925 /* GoodNewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D539442A1AC90F005F2925 /* GoodNewsTableViewController.swift */; };
 		A1D539482A1AD817005F2925 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D539472A1AD817005F2925 /* WebService.swift */; };
 		A1D5394B2A1ADA11005F2925 /* Articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D5394A2A1ADA11005F2925 /* Articles.swift */; };
+		A1D5394E2A1B668B005F2925 /* ArticaleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D5394D2A1B668B005F2925 /* ArticaleViewModel.swift */; };
+		A1D539512A1B6C18005F2925 /* ArticaleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D539502A1B6C18005F2925 /* ArticaleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		A1D539442A1AC90F005F2925 /* GoodNewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodNewsTableViewController.swift; sourceTree = "<group>"; };
 		A1D539472A1AD817005F2925 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		A1D5394A2A1ADA11005F2925 /* Articles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Articles.swift; sourceTree = "<group>"; };
+		A1D5394D2A1B668B005F2925 /* ArticaleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticaleViewModel.swift; sourceTree = "<group>"; };
+		A1D539502A1B6C18005F2925 /* ArticaleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticaleTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 		A1D5392E2A1AC8D3005F2925 /* News Show (MVVM Demo) */ = {
 			isa = PBXGroup;
 			children = (
+				A1D5394F2A1B6C01005F2925 /* Cellls */,
+				A1D5394C2A1B6665005F2925 /* View Models */,
 				A1D539492A1AD9FB005F2925 /* Models */,
 				A1D539462A1AD7F8005F2925 /* Services */,
 				A1D539432A1AC8E7005F2925 /* Controllers */,
@@ -95,6 +101,22 @@
 				A1D5394A2A1ADA11005F2925 /* Articles.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		A1D5394C2A1B6665005F2925 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1D5394D2A1B668B005F2925 /* ArticaleViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		A1D5394F2A1B6C01005F2925 /* Cellls */ = {
+			isa = PBXGroup;
+			children = (
+				A1D539502A1B6C18005F2925 /* ArticaleTableViewCell.swift */,
+			);
+			path = Cellls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +193,8 @@
 				A1D539302A1AC8D3005F2925 /* AppDelegate.swift in Sources */,
 				A1D5394B2A1ADA11005F2925 /* Articles.swift in Sources */,
 				A1D539452A1AC90F005F2925 /* GoodNewsTableViewController.swift in Sources */,
+				A1D5394E2A1B668B005F2925 /* ArticaleViewModel.swift in Sources */,
+				A1D539512A1B6C18005F2925 /* ArticaleTableViewCell.swift in Sources */,
 				A1D539482A1AD817005F2925 /* WebService.swift in Sources */,
 				A1D539322A1AC8D3005F2925 /* SceneDelegate.swift in Sources */,
 			);
